@@ -1,0 +1,6 @@
+- service: app
+  command: java -version
+- service: app
+  command: mvn -version
+- service: app
+  command: mvn test
