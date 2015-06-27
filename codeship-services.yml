@@ -1,4 +1,4 @@
 app:
   build: .
   environment:
-    ES_TEST_LOCAL: true
+    ES_TEST_LOCAL: 'true'
