@@ -27,6 +27,6 @@ ADD rest-api-spec/pom.xml /app/rest-api-spec/pom.xml
 
 RUN mvn dependency:copy-dependencies
 
-add . /app
+ADD . /app
 
-mvn install -DskipTests=true -B
+RUN mvn install -DskipTests=true -B
